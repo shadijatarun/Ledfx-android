@@ -13,7 +13,7 @@ android {
         versionCode 1
         versionName "1.0"
         ndk {
-            abiFilters  'arm64-v8a','armeabi-v7a','x86','x86_64'
+//            abiFilters  'arm64-v8a','armeabi-v7a','x86','x86_64'
         }
         externalNativeBuild {
             cmake {
@@ -51,6 +51,15 @@ android {
         viewBinding true
     }
     ndkVersion '27.1.12297006'
+
+    splits {
+        abi {
+            enable true
+            reset()
+            include "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
+            universalApk false
+        }
+    }
 }
 
 dependencies {
@@ -61,8 +70,5 @@ dependencies {
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
-//    implementation 'com.google.oboe:oboe:1.9.0'
     implementation 'com.google.oboe:oboe:1.9.0'
-//    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
-
 }
