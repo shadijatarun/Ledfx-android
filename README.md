@@ -1,9 +1,9 @@
-🎵 Ledfx android - Audio Reactive LED Effects
+## 🎵 Ledfx android - Audio Reactive LED Effects
 
 Ledfx is an Android application that captures audio from the device's built-in microphone, performs real-time spectral analysis, and visualizes the resulting spectral data to control a connected WLed device. The app translates the audio signal into dynamic, reactive LED effects that change based on the audio frequency and amplitude.
 
 
-🚀 Features
+## 🚀 Features
 
 •	🎧 Audio Reactive LED Effects
 Real-time audio processing that transforms sound into dazzling LED effects.
@@ -18,7 +18,7 @@ Seamlessly communicate with WLED-compatible devices via UDP.
 Adjust IP address, port, and LED count to suit your setup.
 ________________________________________
 
-🛠️ How It Works
+## 🛠️ How It Works
 1.	🎙️ Audio Capture
 Captures sound from the device's microphone using Android's audio APIs (AAudio or OpenSL ES).
 2.	📈 Spectral Analysis
@@ -35,28 +35,38 @@ ________________________________________
 
 ________________________________________
 
-📦 Installation
-1.	Clone the repository:
-bash
-Copy code
-git clone https://github.com/shadijatarun/Ledfx-android.git  
+## 📦 Installation
+
+#### **Option 1: Use Precompiled APKs**  
+Download and install the precompiled APKs directly:  
+[Precompiled APKs](https://github.com/shadijatarun/Ledfx-android/tree/master/precompiled%20apks)  
+
+---
+
+#### **Option 2: Compile from Source**  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/shadijatarun/Ledfx-android.git  
 2.	Open the project in Android Studio.
 3.	Build and install the app on your device.
 4.	Configure your WLED device and start enjoying reactive LED effects!
 ________________________________________
 
-⚙️ Configuration
-1.	WLED Setup:
-o	Ensure your WLED device is on the same network as your phone.
-o	Obtain the device's IP address and port.
-2.	App Setup:
-o	Open the app.
-o	Enter the WLED device IP, port, and number of LEDs in the settings.
-3.	Start Visuals:
-o	Tap "Start" to begin streaming LED effects.
+## ⚙️ Configuration
+1. **WLED Setup:**  
+   - Ensure your WLED device is on the same network as your phone.  
+   - Obtain the device's IP address and port.  
+
+2. **App Setup:**  
+   - Open the app.  
+   - Enter the WLED device IP, port, and number of LEDs in the settings.  
+
+3. **Start Visuals:**  
+   - Tap **"Start"** to begin streaming LED effects.
 ________________________________________
 
-🤝 Contributing
+## 🤝 Contributing
 
 We welcome contributions! Here's how you can help:
 
@@ -64,15 +74,15 @@ We welcome contributions! Here's how you can help:
 
 •	Fork the repository, make changes, and submit a pull request.
 ________________________________________
-🛡️ License
+## 🛡️ License
 
 This project is licensed under the MIT License.
 ________________________________________
-🌟 Support
+## 🌟 Support
 
 If you like this project, consider giving it a ⭐ on GitHub!
 ________________________________________
-🧑‍💻 Acknowledgements
+## 🧑‍💻 Acknowledgements
 
 
 •	[WLED Project](https://kno.wled.ge/)
