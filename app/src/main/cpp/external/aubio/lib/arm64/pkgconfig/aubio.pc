@@ -1,0 +1,10 @@
+prefix=C:\Users\Tarun.S\AppData\Local\Temp
+exec_prefix=C:\Users\Tarun.S\AppData\Local\Temp
+libdir=C:\Users\Tarun.S\AppData\Local\Temp\lib
+includedir=C:\Users\Tarun.S\AppData\Local\Temp\include
+
+Name: aubio
+Description: a library for audio labelling
+Version: 0.5.0-alpha
+Libs: -L${libdir} -laubio
+Cflags: -I${includedir}
