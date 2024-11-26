@@ -76,7 +76,7 @@ We welcome contributions! Here's how you can help:
 ________________________________________
 ## 🛡️ License
 
-This project is licensed under the MIT License.
+This project is licensed under the [GPL-3 License.](https://choosealicense.com/licenses/gpl-3.0/)
 ________________________________________
 ## 🌟 Support
 
